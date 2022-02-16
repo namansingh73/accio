@@ -1,0 +1,212 @@
+body{
+	font-family:arial;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background:white;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	display:flex;
+	align-content:center;
+	justify-content:space-between;
+}
+.container2{
+	display:flex;
+	margin:auto;
+	margin:10px 100px;
+}
+.container3{
+	margin:auto;
+	margin:10px 100px;
+}
+.btn{
+	height:38px;
+	background:#e8491d;
+	border:0;
+	padding:0 20px;
+	color:white;
+}
+header{
+	background:#35424a;
+	color:white;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:3px solid #e8491d;;
+}
+header a{
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+	display:block;
+}
+.container .headeritems{
+	display:flex;
+	list-style-type:none;
+}
+.container .headeritems a{
+	margin:15px 15px;
+}
+header{
+	margin:0;
+	padding:0;
+}
+.highlight,header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+#showcase{
+	min-height:400px;
+	background:url('back.jpg') no-repeat 0 -400px;
+	text-align:center;
+	color:white;
+}
+.mid{
+	margin:0;
+	padding:1px;
+	margin:0 100px;
+}
+#showcase h1{
+	margin-top:90px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+#showcase p{
+	font-size:20px;
+}
+#boxes{
+	margin-top:20px;
+}
+#boxes .box{
+	width:30%;
+	margin:0 20px;
+	text-align:center;
+}
+#boxes .box img{
+	width:90px;
+}
+#news{
+	padding:15px;
+	color:white;
+	background:#35424a;
+}
+#news h1{
+	float:left;
+}
+#news form{
+	float:right;
+	margin-top:15px;
+}
+#news input[type="email"]{
+	padding:4px;
+	height:38px;
+	width:250px;
+}
+.container3{
+	display:flex;
+}
+.btn2{
+	height:38px;
+	background:#e8491d;
+	border:0;
+	padding:0 20px;
+	color:white;
+	margin-top:10px;
+}
+.dark{
+	color:white;
+	width:250px;
+	background:#35424a;
+	padding:10px 5px 5px 10px; 
+}
+#maincol{
+	margin-right:40px;
+}
+#maincol li{
+	list-style:none;
+	padding:20px;
+	border:#cccccc solid 1px;
+	margin-bottom:5px;
+	background:#e6e6e6;
+}
+.quote input,.quote textarea{
+	width:90%;
+	padding:5px;
+}
+.foot{
+	padding:20px;
+	margin-top:20px;
+	background:#e9491d;
+	color:white;
+	height:250px;
+	font-size:16px;
+}
+.foot .connect{
+	width:600px;
+	height:90%;
+	float:left;
+}
+.foot .about{
+	width:600px;
+	height:95%;
+	float:right;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.foot .connect .address,.foot .connect .contact,.foot .connect .email{
+	width:300px;
+	height:25%;
+	margin-left:100px;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:20px;
+}
+.foot .connect .location,.foot .connect .phone,.foot .connect .sym{
+	font-size:30px;
+}
+.ini #pehla,.para{
+	font-weight:700;
+	font-size:14px;
+}
+.ini #fin,.head{
+	font-weight:900;
+	font-size:18px;
+}
+#no,#em{
+	font-weight:900;
+	font-size:18px;
+}
+#copy{
+	text-align:center;
+}
+.foot .about .company{
+	width:350px;
+	height:70%;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+.foot .about .social{
+	width:350px;
+	height:18%;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+.social{
+	font-size:30px;
+	display:flex;
+	justify-content:space-around;
+}
+.foot .copy{
+	text-align:center;
+	clear:both;
+}
